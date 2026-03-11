@@ -238,3 +238,66 @@ background:green;
 background:black;
 color:green;
 }
+@media (max-width: 768px){
+header{
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+#nav-icons{
+justify-content: center;
+gap: 15px;
+}
+#Head-div-hero-sec-1{
+flex-direction: column;
+text-align: center;
+padding: 20px;
+gap: 20px;
+}
+#first-div,
+#italic-p,
+#logo-div{
+width: 100%;
+margin-bottom: 20px;
+}
+#images-1{
+margin-left: 0;
+width: 100%;
+justify-content: center;
+gap: 15px;
+padding: 20px;
+}
+#images-1 img{
+width: 60px;
+height: 60px;
+}
+.big-box{
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.left-side,
+.right-side{
+width: 100%;
+margin-bottom: 20px;
+}
+.number-area{
+justify-content: center;
+gap: 20px;
+}
+.work-row{
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+.last-part{
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 20px;
+}
+.box{
+width: 90%;
+margin-bottom: 20px;
+}
+}
